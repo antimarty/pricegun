@@ -83,7 +83,8 @@ useSkills = GM_getValue('useSkills',false);
 useConsumption = GM_getValue('useConsumption',false);
 // dataLocation = GM_getValue('dataLocation',"http://sites.google.com/site/pricegunrepository/files/dailyprice.log");
 // marty change 2012-05-13 all the price lists seemed dead, convert to use mafia list
-dataLocation = GM_getValue('dataLocation',"https://svn.code.sf.net/p/kolmafia/code/src/data/mallprices.txt?format=raw");
+// dataLocation = GM_getValue('dataLocation',"https://svn.code.sf.net/p/kolmafia/code/src/data/mallprices.txt?format=raw");
+dataLocation = GM_getValue('dataLocation',"https://raw.githubusercontent.com/antimarty/pricegun/master/mallprices-marty.txt");
 // dataLocation = GM_getValue('dataLocation',"http://hogsofdestiny.com/kol/pricegun/dailyprice.log");
 
 useMafiaPriceList = true;  // really means my forced pricelist above instead of from the list below
